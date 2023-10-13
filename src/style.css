@@ -43,6 +43,8 @@ main{
     line-height:20px;
 }
 .description a{
+    font-family: 'Poppins';
+    font-weight: 400;
     display: inline-block;
     margin-top: 15px;
     padding: 15px 50px 15px 50px;
@@ -56,18 +58,23 @@ main{
 }
 
 .social ul{
-    display: block;
     margin-right: 50px;
     display:flex;
     justify-content: end;
+    font-size: 20px;
 
 }
 .social i{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     color:white;
     border: 1px solid ;
-    border-radius:30px;
+    border-radius:20px;
+    height: 10px;
+    width: 10px;
     margin: 10px;
-    padding: 5px;
+    padding: 15px;
 
 
 }
