@@ -28,12 +28,17 @@ main{
     
 }
 .description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
+    gap:10px;
+    margin:30px;
 }
 .description h1{
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 38px;
+    font-size: 45px;
     line-height: 55px;
 }
 .description p{
@@ -46,11 +51,12 @@ main{
     font-family: 'Poppins';
     font-weight: 400;
     display: inline-block;
+    width: max-content;
     margin-top: 15px;
     padding: 15px 50px 15px 50px;
     background-color: white;
     border-radius: 25px;
-    color: hsl(300, 69%, 71%);
+    color: hsl(257, 40%, 49%);
 }
 .description a:hover{
     background-color:hsl(300, 69%, 71%);
