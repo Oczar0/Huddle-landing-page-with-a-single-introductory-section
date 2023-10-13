@@ -85,8 +85,9 @@ main{
     font-size: 11px; 
     text-align: center; 
     width: 100vw;
+    color: white;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: hsl(300, 69%, 71%);
 }
