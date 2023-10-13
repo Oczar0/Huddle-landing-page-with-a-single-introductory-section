@@ -1,6 +1,10 @@
 
 @media (max-width: 576px){
-    main{
+  body{
+    background-image: url(../images/bg-mobile.svg);
+    max-width: 100vw;  }
+
+  main{
         width: 100vw;
         flex-direction:column;
         align-items: center;
@@ -25,11 +29,6 @@
     
     width: 70vw;
   }
-  body{
-  background-image: url(../images/bg-mobile.svg);
-  max-width: 100vw;
-}
-
 
 }
     

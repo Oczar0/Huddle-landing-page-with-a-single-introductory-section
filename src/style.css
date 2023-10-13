@@ -1,6 +1,10 @@
-main{
-    display: flex;
-    
+html{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 body{
     background-image: url(../images/bg-desktop.svg);
@@ -9,19 +13,21 @@ body{
     background-color:hsl(257, 40%, 49%);
     display:flex;
     flex-direction:column;
-    align-items: center;
-    align-content: center;
+    height: 100vh;
     max-width: 1440px;
-    margin: 0 auto;
+
 }
-.image{
-    margin-left:30px;
+main{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
 }
+
 .logo img{
-    margin-left: 30px;
+    margin: 30px;
+    
 }
 .description{
-    padding: 50px;
     color: white;
 }
 .description h1{
